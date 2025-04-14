@@ -75,13 +75,45 @@ body{
     padding: 20px 0;;
 }
 
+.btn button{
+    border: none;
+    background-color: transparent;
+}
 
-
+.btn button:hover{
+    cursor: pointer;
+    background-color: hsl(275, 100%, 97%);
+}
 
 
 .attribution { 
     font-size: 11px; text-align: center;    
     position: absolute;
-    top: 112%;
+    top: 120%;
 }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+     text-decoration: none;
+    }
+
+
+@media screen and (max-width: 375px){
+    .background-pattern-dekstop{
+        background-image: url(/assets/images/background-pattern-mobile.svg);
+    }
+
+    .content-container{
+        top: 300px
+    }
+
+    .faq-container{
+        padding: 20px 20px;
+    }
+
+    .faq-question{
+        gap: 20px;
+    }
+}
+
+
+
