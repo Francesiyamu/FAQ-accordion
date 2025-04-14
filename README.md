@@ -1,5 +1,20 @@
 # FAQ accordion
- In this challenge, l'll be building a FAQ accordion, which is a common front end pattern.# Frontend Mentor - FAQ accordion solution
+ This project is a FAQ Accordion Component built as part of a coding challenge from Frontend Mentor. It is designed to display frequently asked questions (FAQs) in an interactive accordion format, where users can expand or collapse individual questions to reveal or hide their answers.
+
+Key Features:
+Accordion Functionality:
+
+Each FAQ question has a button with a plus icon (+) that toggles the visibility of the corresponding answer.
+When the button is clicked, the plus icon changes to a minus icon (-), and the answer becomes visible.
+Clicking the button again hides the answer and reverts the icon back to a plus.
+Responsive Design:
+
+The project includes a responsive layout that adapts to different screen sizes.
+A media query for devices with a max-width: 375px is already implemented, and additional media queries (e.g., for max-width: 767px) can be added to enhance responsiveness.
+HTML Structure:
+
+The project uses semantic HTML elements like <section>, <header>, <article>, and <footer> for better accessibility and structure.
+
  
  
 
