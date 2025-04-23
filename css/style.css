@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -48,7 +48,16 @@ body{
     overflow-y: auto; /* for scrollability */
     border-radius: 10px;
 }
+.hidden {
+    display: none;
+}
 
+.answer {
+    display: none;
+}
+.answer.visible {
+    display: block;
+}
 .header{
     display: flex;
     align-items: center;
@@ -75,12 +84,12 @@ body{
     padding: 20px 0;;
 }
 
-.btn button{
+.btn{
     border: none;
     background-color: transparent;
 }
 
-.btn button:hover{
+.btn:hover{
     cursor: pointer;
     background-color: hsl(275, 100%, 97%);
 }
